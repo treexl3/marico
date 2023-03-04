@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Log in</title>
+   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+   <meta name="format-detection" content="telephone=no">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="css/style.min.css?_v=20230304170908" />
+
+   <link rel="icon" href="img/favicon/favicon.ico">
+   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+   <link rel="manifest" href="img/favicon/site.webmanifest">
+   <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#da532c">
+   <meta name="theme-color" content="#ffffff">
+   <!-- <meta name="robots" content="noindex, nofollow"> -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+   <!--! Wrapper -->
+   <div class="wrapper">
+      <!--! Header -->
+      <header id="header">
+   <div class="container">
+      <div class="header-body">
+         <div class="header-body__logo logo">
+            <svg width="44px" height="41px" class="header-body__image logo__image">
+               <use xlink:href=img/icons/icons.svg#logo>
+            </svg>
+            <a href="index.html" class="logo__link">Marico</a>
+         </div>
+         <div class="header-body__menu menu-header">
+            <div class="menu-header__icon">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+            <nav class="menu-header__menu">
+               <ul class="menu-header__list">
+                  <li>
+                     <a href="#" class="menu-header__link">Use Cases</a>
+                     <svg class="menu-header__arrow" width="10px" height="6px">
+                        <use xlink:href=img/icons/icons.svg#down-arrow>
+                     </svg>
+                  </li>
+                  <li><a href="about.html" class="menu-header__link">About</a></li>
+                  <li><a href="pricing.html" class="menu-header__link">Pricing</a></li>
+                  <li><a href="blog.html" class="menu-header__link">Blog</a></li>
+               </ul>
+               <div class="menu-header__hidden"></div>
+            </nav>
+         </div>
+         <div class="header-body__sign sign">
+            <a href="log-in.html" class="sign__button-in">Login</a>
+            <a href="sign-up.html" class="sign__button btn">Sign Up</a>
+         </div>
+      </div>
+   </div>
+</header>
+
+      <!--! Main -->
+      <main class="main">
+         <!--! Form -->
+         <section class="log-in">
+            <div class="container">
+               <h1 class="log-in__title">Log in</h1>
+               <h2 class="log-in__subtitle">Login into existing account.</h2>
+               <form action="#" name="firstForm" class="first-form">
+                  <div class="first-form__column">
+                     <div class="first-form__item">
+                        <div class="first-form__inp">
+                           <input autocomplete="off" type="username" name="nameUsername1" placeholder="Username"
+                              class="first-form__input input">
+                        </div>
+                        <svg class="first-form__image" width="25" height="30">
+                           <use xlink:href=img/icons/icons.svg#user>
+                              <use>
+                        </svg>
+                     </div>
+                  </div>
+                  <div class="first-form__column">
+                     <div class="first-form__item">
+                        <div class="first-form__inp">
+                           <input autocomplete="off" type="password" name="namePassword1" placeholder="Password"
+                              class="first-form__input input">
+                        </div>
+                        <svg class="first-form__image first-form__image--password" width="25" height="30">
+                           <use xlink:href=img/icons/icons.svg#eye>
+                              <use>
+                        </svg>
+                     </div>
+                  </div>
+                  <div class="first-form__column">
+                     <div class="first-form__item">
+                        <button type="submit" class="first-form__btn btn">Log In</button>
+                     </div>
+                  </div>
+               </form>
+               <h3 class="log-in__title">Or</h3>
+               <h4 class="log-in__suptitle">Log in with...</h4>
+               <div class="log-in__buttons button-sign">
+                  <button type="button" class="button-sign__btn">
+                     <picture><source srcset="img/sign/facebook.webp" type="image/webp"><img src="img/sign/facebook.png" alt=""></picture>
+                     <span>Sign up with Facebook</span>
+                  </button>
+                  <button type="button" class="button-sign__btn">
+                     <picture><source srcset="img/sign/google.webp" type="image/webp"><img src="img/sign/google.png" alt=""></picture>
+                     <span>Sign up with Google</span>
+                  </button>
+                  <button type="button" class="button-sign__btn">
+                     <svg class="button-sign__image" width="33" height="28">
+                        <use xlink:href=img/icons/icons.svg#apple>
+                           <use>
+                     </svg>
+                     <span class="span">Sign up with Apple</span>
+                  </button>
+               </div>
+               <h5 class="log-in__log-in">Don’t have an account? <a href="sign-up.html">Create One.</a></h5>
+            </div>
+         </section>
+      </main>
+
+   </div>
+
+   <script src="js/app.min.js?_v=20230304170908"></script>
+   <script src="js/components.min.js?_v=20230304170908"></script>
+</body>
+
+</html>

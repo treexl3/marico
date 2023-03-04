@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Sign Up</title>
+   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+   <meta name="format-detection" content="telephone=no">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="css/style.min.css?_v=20230304170908" />
+
+   <link rel="icon" href="img/favicon/favicon.ico">
+   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+   <link rel="manifest" href="img/favicon/site.webmanifest">
+   <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#da532c">
+   <meta name="theme-color" content="#ffffff">
+   <!-- <meta name="robots" content="noindex, nofollow"> -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+   <!--! Wrapper -->
+   <div class="wrapper">
+      <!--! Header -->
+      <header id="header">
+   <div class="container">
+      <div class="header-body">
+         <div class="header-body__logo logo">
+            <svg width="44px" height="41px" class="header-body__image logo__image">
+               <use xlink:href=img/icons/icons.svg#logo>
+            </svg>
+            <a href="index.html" class="logo__link">Marico</a>
+         </div>
+         <div class="header-body__menu menu-header">
+            <div class="menu-header__icon">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+            <nav class="menu-header__menu">
+               <ul class="menu-header__list">
+                  <li>
+                     <a href="#" class="menu-header__link">Use Cases</a>
+                     <svg class="menu-header__arrow" width="10px" height="6px">
+                        <use xlink:href=img/icons/icons.svg#down-arrow>
+                     </svg>
+                  </li>
+                  <li><a href="about.html" class="menu-header__link">About</a></li>
+                  <li><a href="pricing.html" class="menu-header__link">Pricing</a></li>
+                  <li><a href="blog.html" class="menu-header__link">Blog</a></li>
+               </ul>
+               <div class="menu-header__hidden"></div>
+            </nav>
+         </div>
+         <div class="header-body__sign sign">
+            <a href="log-in.html" class="sign__button-in">Login</a>
+            <a href="sign-up.html" class="sign__button btn">Sign Up</a>
+         </div>
+      </div>
+   </div>
+</header>
+
+      <!--! Main -->
+      <main class="main">
+         <!--! Form -->
+         <section class="sign-up">
+            <div class="container">
+               <h1 class="sign-up__title">Sign up</h1>
+               <h2 class="sign-up__subtitle">Fill all field for create an account.</h2>
+               <form action="#" name="secondForm" class="second-form">
+                  <div class="second-form__column">
+                     <div class="second-form__item">
+                        <div class="second-form__inp">
+                           <input autocomplete="off" type="username" name="nameUsername" placeholder="Username"
+                              class="second-form__input input">
+                        </div>
+                        <svg class="second-form__image" width="25" height="30">
+                           <use xlink:href=img/icons/icons.svg#user>
+                              <use>
+                        </svg>
+                     </div>
+                     <div class="second-form__item">
+                        <div class="second-form__inp">
+                           <input autocomplete="off" type="password" name="namePassword" placeholder="Password"
+                              class="second-form__input input">
+                        </div>
+                        <svg class="second-form__image second-form__image--password" width="25" height="30">
+                           <use xlink:href=img/icons/icons.svg#eye>
+                              <use>
+                        </svg>
+                     </div>
+                  </div>
+                  <div class="second-form__column">
+                     <div class="second-form__item">
+                        <div class="second-form__inp">
+                           <input autocomplete="off" type="text" name="nameEmail" placeholder="Email Address"
+                              class="second-form__input input">
+                        </div>
+                        <svg class="second-form__image" width="25" height="30">
+                           <use xlink:href=img/icons/icons.svg#at>
+                              <use>
+                        </svg>
+                     </div>
+                     <div class="second-form__item">
+                        <button type="submit" class="second-form__btn btn">Sign Up</button>
+                     </div>
+                  </div>
+               </form>
+               <h3 class="sign-up__title">Or</h3>
+               <h4 class="sign-up__suptitle">Sign up with...</h4>
+               <div class="sign-up__buttons button-sign">
+                  <button type="button" class="button-sign__btn">
+                     <picture><source srcset="img/sign/facebook.webp" type="image/webp"><img src="img/sign/facebook.png" alt=""></picture>
+                     <span>Sign up with Facebook</span>
+                  </button>
+                  <button type="button" class="button-sign__btn">
+                     <picture><source srcset="img/sign/google.webp" type="image/webp"><img src="img/sign/google.png" alt=""></picture>
+                     <span>Sign up with Google</span>
+                  </button>
+                  <button type="button" class="button-sign__btn">
+                     <svg class="button-sign__image" width="33" height="28">
+                        <use xlink:href=img/icons/icons.svg#apple>
+                           <use>
+                     </svg>
+                     <span class="span">Sign up with Apple</span>
+                  </button>
+               </div>
+               <h5 class="sign-up__log-in">Already have an account? Please <a href="log-in.html">Log in.</a></h5>
+            </div>
+         </section>
+      </main>
+
+   </div>
+
+   <script src="js/app.min.js?_v=20230304170908"></script>
+   <script src="js/components.min.js?_v=20230304170908"></script>
+</body>
+
+</html>
